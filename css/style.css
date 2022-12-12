@@ -21,6 +21,11 @@ body {
     margin: .5rem 0;
 }
 
+.container-header>span {
+    font-size: 10px;
+
+}
+
 /* MAIN */
 
 
@@ -45,4 +50,46 @@ body {
     left: .2rem;
     color: white;
     background-color: rgba(0, 0, 0, .5);
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    background-color: #222222;
+    color: white;
+}
+
+.icon-container {
+    display: inline-block;
+    text-align: center;
+    padding: .5rem;
+}
+
+.text {
+    display: block;
+    font-size: 8px;
+}
+
+.c-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .footer-center>li {
+    display: inline-block;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+.prova {
+    display: block;
+}
+
+.footer-right {
+    background-color: #4a4a4a;
+    color: red;
+    line-height: 80px;
 }
