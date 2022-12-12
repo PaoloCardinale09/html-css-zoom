@@ -23,6 +23,26 @@ body {
 
 /* MAIN */
 
+
 .main-section {
-    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: calc(100% / 7);
+    position: relative;
+    padding: .4rem .2rem;
+}
+
+.image-container>img {
+    width: 100%;
+}
+
+.pics-details {
+    position: absolute;
+    bottom: .6rem;
+    left: .2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
 }
