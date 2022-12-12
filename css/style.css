@@ -76,9 +76,10 @@ footer {
     justify-content: space-between;
 }
 
-/* .footer-center>li {
-    display: inline-block;
-} */
+.footer-left,
+.footer-center {
+    align-items: center;
+}
 
 ul {
     list-style-type: none;
